@@ -3,6 +3,8 @@
 #define INF 1000000000
 #define MAXN 1000   /// number of nodes
 
+/// complexity is O(M + NlogN) where N are vertices and M edges
+
 using namespace std;
 
 typedef pair < int, int > ii;
