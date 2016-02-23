@@ -1,0 +1,40 @@
+Test for applying Gaussian Elimination Algorithm
+===================================================
+
+Solve the simultaneous equations:
+
+(1): 4a+32b+12d+322077 = 17c+26e
+(2): 147854+69b+19c = 3a+6d+12e
+(3): 31e+21c+23d = 381239+15a+17b
+(4): 27a+28b+13c+5e = 62234+7d
+(5): 270000+19a+11b+24d = 22e-3280-11b
+
+SOLUTION
+---------
+
+Rearranging each equation gives:
+
+(1):   4a + 32b - 17c + 12d - 26e = -322077
+(2):   3a - 69b - 19c +  6d + 12e = 147854
+(3): -15a - 17b + 21c + 23d + 31e = 381239
+(4):  27a + 28b + 13c -  7d +  5e = 62234
+(5):  19a + 11b +  9c + 24d - 22e = -273280
+
+So we can create an array with coefficients to give to our program.
+
+Input:
+
+5
+4 32 -17 12 -26 -322077
+3 -69 -19 6 12 147854
+-15 -17 21 23 31 381239
+27 28 13 -7 5 62235
+19 11 9 24 -22 -273280
+
+Output:
+
+Value of variable: 1
+Value of variable: -4
+Value of variable: 7
+Value of variable: -72
+Value of variable: 12345
