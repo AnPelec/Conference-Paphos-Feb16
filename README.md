@@ -1,5 +1,5 @@
-# Conference-Paphos-Feb16
-## Maths-Computer Science Project
+# Intelligent Mathematics
+## "Intelligent Mathematics" Maths-Computer Science Presentation
 
 In February 2016, we submitted a presentation for the Annual Conference of Sciences that was held in Paphos, Cyprus that year.
 Our team was composed by:
